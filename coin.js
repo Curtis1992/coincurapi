@@ -1,4 +1,4 @@
-const APP_ID = '<YOUR_APP_ID>';
+const APP_ID = '<3c2aa252d7a74448bca11330ab997c6f>';
 const BASE_URL = 'openexchangerates.org';
 const https = require('https');
 
