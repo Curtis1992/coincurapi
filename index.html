@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Zach's Currency Converter</title>
+  <script src="currency.js"></script>
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div>
+      <label for="ambuntInput">Amount</label>
+      <input type="number" id="amountInput" step="1.0" placeholder="Enter amount" />
+      <label for="fromSelect">From</label>
+      <select id="fromSelect">
+        <option value="USD">USD</option>
+      </select>
+      <label for="toSelect">To</label>
+      <select id="toSelect">
+        <option value="EUR">EUR</option>
+      </select>
+    </div>
+
+    <div id="errorMegDiv" class="error"></div>
+    <button id="convertBtn">Convert</button>
+    <div id="resultDiv"></div>
+</body>
+</html>
